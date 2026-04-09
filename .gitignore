@@ -1,0 +1,9 @@
+# Secrets and local env
+.env
+secrets.env
+
+# OS
+.DS_Store
+
+# Fleet task result (written after every task, causes rebase conflicts)
+.task-result.json
