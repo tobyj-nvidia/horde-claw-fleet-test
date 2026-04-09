@@ -7,3 +7,13 @@ secrets.env
 
 # Fleet task result (written after every task, causes rebase conflicts)
 .task-result.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
